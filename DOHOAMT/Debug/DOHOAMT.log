@@ -1,0 +1,59 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30037 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /ID:\BTL_DHMT\DOHOAMT\src /ID:\BTL_DHMT\DOHOAMT\include /Wall /WX- /diagnostics:column /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\Debug\\" /Fd".\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W4 /Gd /TP /analyze- /FC /errorReport:prompt DHMT.CPP
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+cl : command line warning D9007: '/Gm' requires '/Zi or /ZI'; option ignored
+  DHMT.CPP
+D:\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\limits.h(70,5): warning C4668: '__STDC_WANT_SECURE_LIB__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(7679,48): warning C5039: 'TpSetCallbackCleanupGroup': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\include\GL\freeglut_std.h(125,7): warning C4668: '__APPLE__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+D:\BTL_DHMT\DOHOAMT\include\GL\freeglut_std.h(627,123): warning C5039: '__glutCreateMenuWithExit': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(15,36): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(81,87): warning C4365: 'argument': conversion from 'LONG' to 'size_t', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(87,5): warning C4365: 'argument': conversion from 'LONG' to 'size_t', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(87,5): warning C4365: '=': conversion from 'size_t' to 'long', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(93,28): warning C4365: '=': conversion from 'unsigned char' to 'char', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(95,32): warning C4365: '=': conversion from 'char' to 'unsigned char', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(120,22): warning C4365: 'return': conversion from 'GLuint' to 'int', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(52,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(252,40): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(252,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(267,47): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(267,25): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(371,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(372,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(375,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(376,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(365,46): warning C4100: 'yy': unreferenced formal parameter
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(365,38): warning C4100: 'xx': unreferenced formal parameter
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(403,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(404,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(411,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(412,43): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(396,55): warning C4100: 'yy': unreferenced formal parameter
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(396,47): warning C4100: 'xx': unreferenced formal parameter
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(431,31): warning C5219: implicit conversion from 'int' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(432,32): warning C5219: implicit conversion from 'int' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(453,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(490,36): warning C4365: '=': conversion from 'int' to 'GLuint', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(491,41): warning C4365: '=': conversion from 'int' to 'GLuint', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(492,40): warning C4365: '=': conversion from 'int' to 'GLuint', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(493,41): warning C4365: '=': conversion from 'int' to 'GLuint', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(494,36): warning C4365: '=': conversion from 'int' to 'GLuint', signed/unsigned mismatch
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(510,38): warning C4244: 'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(518,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(518,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(522,29): warning C5039: 'glutDisplayFunc': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(523,28): warning C5039: 'glutReshapeFunc': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(524,22): warning C5039: 'glutIdleFunc': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(525,36): warning C5039: 'glutKeyboardFunc': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(526,36): warning C5039: 'glutSpecialFunc': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(527,44): warning C5039: 'glutPassiveMotionFunc': pointer or reference to potentially throwing function passed to 'extern "C"' function under -EHc. Undefined behavior may occur if this function throws an exception.
+D:\BTL_DHMT\DOHOAMT\include\GL\freeglut_std.h(627,32): warning C4505: 'glutCreateMenu_ATEXIT_HACK': unreferenced local function has been removed
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(270): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(265): message : index 'j' range checked by comparison on this line
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(270): message : feeds call on this line
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(255): warning C5045: Compiler will insert Spectre mitigation for memory load if /Qspectre switch specified
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(250): message : index 'j' range checked by comparison on this line
+D:\BTL_DHMT\DOHOAMT\DHMT.CPP(255): message : feeds call on this line
+  DOHOAMT.vcxproj -> D:\BTL_DHMT\DOHOAMT\Debug\DOHOAMT.exe
